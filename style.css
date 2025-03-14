@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    list-style: none;
+}
+
+.navbar-1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 12px 15px;
+    align-items: center;
+}
+
+.nav-logo img {
+    width: 130px;
+}
+
+.nav-items {
+    display: flex;
+    color: rgb(0, 0, 0);
+
+}
+
+.nav-items li>a {
+    text-decoration: none;
+    padding: 0px 20px;
+    color: black;
+    text-transform: capitalize;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: inline-block;
+    position: relative;
+}
+
+.nav-items li>a:hover {
+    color: rgb(87, 87, 87);
+}
+
+.nav-items li>a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #efc612;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.nav-items li>a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom center;
+}
+
+.home {
+    background-image: url(/Images/first\ banner\ image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 21px;
+    border-radius: 10px;
+    height: 600px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.fst-banner-content-1 p {
+    color: #edc100;
+    text-transform: uppercase;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    margin: 0px;
+}
+
+.fst-banner-content-1 h1 {
+    color: #ffffff;
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fst-banner-content-2 {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+
+
+.fst-banner-content-2 h1 {
+    color: #ffffff;
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fst-banner-content-3 p {
+    color: #ffffff;
+    font-family: "Hind Siliguri", sans-serif;
+    font-style: normal;
+    font-size: 0.9rem;
+    margin: 0px;
+}
+
+.round-images img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin: 0px -5px;
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+
+.round-images img:hover {
+    box-shadow: 0 8px 8px 0 #6d6d6d, 0 8px 8px 0 #454545;
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    -moz-transform: translate(0px, 5px);
+}
+
+.fst-banner-content-btn .fst-banner-content-btn1 {
+    background-color: #efc612;
+    border: 1px solid #efc612;
+    border-radius: 7px;
+    margin: 10px;
+    color: #3c3c3c;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    padding: 6px 19px;
+}
+
+
+.fst-banner-content-btn .fst-banner-content-btn2{
+    
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    color: #3c3c3c;
+    margin: 10px;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    padding: 6px 19px;
+}
+
+
+
+
+
+
+
+
+.nav-btn button {
+    background-color: #efc612;
+    border: 1px solid #efc612;
+    border-radius: 7px;
+    margin: 10px;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    padding: 5px 15px;
+
+}
