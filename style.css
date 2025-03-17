@@ -18,6 +18,8 @@
 
 .nav-items {
     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
     color: rgb(0, 0, 0);
 
 }
@@ -57,15 +59,28 @@
 }
 
 .home {
-    background-image: url(/Images/first\ banner\ image.png);
+    /* background-image: url(/Images/first\ banner\ image.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0px 21px;
-    border-radius: 10px;
-    height: 600px;
+    background-size: cover; */
+    margin: 15px 26px;
+    position: relative;
+    height: 45vw;
     display: grid;
     justify-content: center;
     align-items: center;
+}
+
+.home>img {
+    z-index: -1;
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.fst-banner {
+    text-align: center;
 }
 
 .fst-banner-content-1 p {
@@ -81,7 +96,7 @@
 
 .fst-banner-content-1 h1 {
     color: #ffffff;
-    font-size: 4rem;
+    font-size: 4vw;
     text-transform: capitalize;
     font-family: "Fira Sans", sans-serif;
     font-weight: 400;
@@ -90,6 +105,7 @@
 
 .fst-banner-content-2 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     column-gap: 30px;
 }
@@ -98,7 +114,7 @@
 
 .fst-banner-content-2 h1 {
     color: #ffffff;
-    font-size: 4rem;
+    font-size: 4vw;
     text-transform: capitalize;
     font-family: "Fira Sans", sans-serif;
     font-weight: 400;
@@ -114,8 +130,8 @@
 }
 
 .round-images img {
-    width: 50px;
-    height: 50px;
+    width: 4vw;
+    height: 4vw;
     border-radius: 30px;
     margin: 0px -5px;
     transition: .5s, color .10s;
@@ -145,8 +161,8 @@
 }
 
 
-.fst-banner-content-btn .fst-banner-content-btn2{
-    
+.fst-banner-content-btn .fst-banner-content-btn2 {
+
     background-color: #ffffff;
     border: 1px solid #ffffff;
     border-radius: 7px;
@@ -160,13 +176,6 @@
     padding: 6px 19px;
 }
 
-
-
-
-
-
-
-
 .nav-btn button {
     background-color: #efc612;
     border: 1px solid #efc612;
@@ -179,4 +188,205 @@
     font-size: 0.8rem;
     padding: 5px 15px;
 
+}
+
+.services-cards {
+    margin: 15px 17px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.services-cards-1 {
+    background-image: url(/Images/psychiatric\ evaluation.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 505px;
+    height: 300px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 10px;
+    margin: 5px;
+}
+
+.services-cards-1-content h2 {
+    color: #fff;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+}
+
+.services-cards-1-content p {
+    color: #fff;
+    font-size: 0.8rem;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+}
+
+
+.services-cards-2 {
+    background-image: url(/Images/medication.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 505px;
+    height: 300px;
+    border-radius: 15px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px;
+}
+
+.services-cards-2-content h2 {
+    color: #fff;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+}
+
+.services-cards-2-content p {
+    color: #fff;
+    font-size: 0.8rem;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+}
+
+.services-cards-3 {
+    background-image: url(/Images/psychothery.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 505px;
+    height: 300px;
+    border-radius: 15px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px;
+}
+
+.services-cards-3-content h2 {
+    color: #fff;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+}
+
+.services-cards-3-content p {
+    color: #fff;
+    font-size: 0.8rem;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+}
+
+.services-cards-1-content-icon {
+    background-color: #edc100;
+    padding: 0px 9px;
+    border-radius: 30px;
+    font-size: 1.8rem;
+    font-weight: 100;
+    color: #0000009e;
+}
+
+.booking {
+    width: 450px;
+}
+
+.booking h4 {
+    color: #edc100;
+    text-transform: uppercase;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    margin: 10px 0px;
+}
+
+.booking h1 {
+    color: #000000;
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+    margin: 10px 0px;
+}
+
+.booking p {
+    color: #636363;
+    font-size: 0.9rem;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    margin: 16px 0px;
+}
+
+.visit-us {
+    width: 300px;
+}
+
+.visit-us>i {
+    color: #800080a3;
+    padding: 7px;
+    font-weight: 100;
+    font-size: 1.6rem;
+    border: 1px solid #ccd6f9;
+    background-color: #ccd6f9;
+    border-radius: 26px;
+}
+
+.visit-us h1 {
+    color: black;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 5px 0px;
+}
+
+.visit-us h3 {
+    color: #636363;
+    text-transform: capitalize;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 5px 0px;
+}
+
+@media (max-width: 750px) {
+    .nav-items {
+        display: none;
+    }
+
+    .navbar-1 {
+        justify-content: space-between;
+    }
+
+    .fst-banner {
+        text-align: start;
+    }
+
+    .home {
+        justify-content: start;
+        height: 71vw;
+    }
+
+    .fst-banner-content-2 {
+        justify-content: start;
+    }
+
+    .fst-banner-content-3 p {
+        font-size: 0.7rem;
+    }
 }
