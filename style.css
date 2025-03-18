@@ -60,9 +60,6 @@
 }
 
 .home {
-    /* background-image: url(/Images/first\ banner\ image.png);
-    background-repeat: no-repeat;
-    background-size: cover; */
     margin: 15px 26px;
     position: relative;
     height: 45vw;
@@ -590,12 +587,135 @@
     margin: 20px 0px;
 }
 
+.health-care {
+    width: 500px;
+    margin: 0px 20px;
+}
 
-/* @media (max-width: 1177px) {
-    .our-services {
-        margin-top: 40rem;
-    }
-} */
+.resident-care {
+    display: flex;
+    align-items: start;
+    width: 100%;
+}
+
+.resident-care>i {
+    color: #3a1e33;
+    font-weight: 100;
+    background-color: #ccd6fa;
+    font-size: 2.2rem;
+    padding: 1px 8px;
+    border: 1px solid #ccd6fa;
+    border-radius: 37px;
+    margin: 0px 20px;
+}
+
+.resident-care h1 {
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.resident-care p {
+    color: #636363;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-family: "Fira Sans", sans-serif;
+    line-height: 1.7;
+    margin: 0px;
+}
+
+.chose-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 45px 0px;
+}
+
+.health-care-image img {
+    width: 100%;
+    border-radius: 15px;
+    opacity: 0.8;
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+.health-care-image img:hover {
+    opacity: 1;
+    box-shadow: 0 8px 8px 0 #6d6d6d, 0 8px 8px 0 #454545;
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    -moz-transform: translate(0px, 5px);
+}
+.healthcare-content-top h4 {
+    color: #efc614;
+    text-transform: uppercase;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    margin: 15px 0px;
+}
+
+.healthcare-content-top h1 {
+    color: #000000;
+    font-size: 2.7rem;
+    text-transform: capitalize;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+    margin: 10px 0px;
+}
+
+.healthcare-content-top {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.health-care-image {
+    position: relative;
+}
+
+.health-care-image>i {
+    font-size: 2.8rem;
+    border: 1px solid #F1C512;
+    position: absolute;
+    left: 17rem;
+    top: 11rem;
+    background-color: #f1c512;
+    border-radius: 46px;
+    padding: 0px 8px 0px 15px;
+}
+
+.health-care-image>i:active {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -627,5 +747,10 @@
 
     .booking-flex {
         justify-content: start;
+    }
+
+    .health-care-image>i {
+        left: 40%;
+        top: 40%;
     }
 }
