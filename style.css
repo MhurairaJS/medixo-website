@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght,YTLC@1,6..12,462,513&display=swap');
 
 * {
     list-style: none;
@@ -126,7 +127,7 @@
     font-family: "Hind Siliguri", sans-serif;
     font-style: normal;
     font-size: 0.9rem;
-    margin: 0px;
+    margin: 11px;
 }
 
 .round-images img {
@@ -146,22 +147,22 @@
     -moz-transform: translate(0px, 5px);
 }
 
-.fst-banner-content-btn .fst-banner-content-btn1 {
+.fst-banner-content-btn1 {
     background-color: #efc612;
     border: 1px solid #efc612;
     border-radius: 7px;
     margin: 10px;
     color: #3c3c3c;
     font-family: "Hind Siliguri", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     text-transform: capitalize;
     font-size: 0.9rem;
-    padding: 6px 19px;
+    padding: 7px 22px;
 }
 
 
-.fst-banner-content-btn .fst-banner-content-btn2 {
+.fst-banner-content-btn2 {
 
     background-color: #ffffff;
     border: 1px solid #ffffff;
@@ -169,11 +170,11 @@
     color: #3c3c3c;
     margin: 10px;
     font-family: "Hind Siliguri", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     text-transform: capitalize;
     font-size: 0.9rem;
-    padding: 6px 19px;
+    padding: 7px 22px;
 }
 
 .nav-btn button {
@@ -295,6 +296,17 @@
     color: #0000009e;
 }
 
+.booking-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 8vw 0px;
+}
+
+
 .booking {
     width: 450px;
 }
@@ -333,6 +345,7 @@
 
 .visit-us {
     width: 300px;
+    margin: 20px 15px;
 }
 
 .visit-us>i {
@@ -347,12 +360,12 @@
 
 .visit-us h1 {
     color: black;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     text-transform: capitalize;
     font-family: "Fira Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin: 5px 0px;
+    margin: 14px 0px 3px 0px;
 }
 
 .visit-us h3 {
@@ -360,9 +373,231 @@
     text-transform: capitalize;
     font-family: "Fira Sans", sans-serif;
     font-weight: 400;
+    font-size: 0.9rem;
     font-style: normal;
-    margin: 5px 0px;
+    margin: 12px 0px;
 }
+
+.visit-us p {
+    color: #755375;
+    text-transform: capitalize;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.visit-us p>i {
+    color: rgba(0, 0, 0, 0.645);
+    font-weight: 100;
+    font-size: 1rem;
+    margin: 0px 7px;
+}
+
+.mindhaven {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 8vw 0px;
+}
+
+.mindhaven-img img {
+    width: 100%;
+    border-radius: 10px;
+    filter: drop-shadow(45px 45px 0px #3a1e33);
+}
+
+.mindhaven-content-1 {
+    width: 500px;
+}
+
+.mindhaven-content-1 h3 {
+    color: #efc614;
+    text-transform: uppercase;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    margin: 15px 0px;
+}
+
+.mindhaven-content-1 h1 {
+    color: #000000;
+    font-size: 2.7rem;
+    text-transform: capitalize;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+    margin: 10px 0px;
+}
+
+.mindhaven-content-1 p {
+    color: #636363;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-family: "Fira Sans", sans-serif;
+    line-height: 1.7;
+}
+
+.mindhaven-content-1 h4 {
+    color: #454545;
+    text-transform: capitalize;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 462;
+    font-style: italic;
+    font-size: 1rem;
+    margin: 25px 0px;
+
+}
+
+.mindhaven-docter-name {
+    display: flex;
+    align-items: end;
+    margin: 20px 0px;
+}
+
+.mindhaven-docter-name img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.mindhaven-docter-name h5 {
+    color: #000000;
+    font-size: 1rem;
+    margin: 3px 10px;
+
+}
+
+.mindhaven-docter-name p {
+    color: #454545;
+    font-size: 0.7rem;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin: 3px 10px;
+}
+
+.mindhaven-end-btn button {
+    background-color: #efc612;
+    border: 1px solid #efc612;
+    border-radius: 7px;
+    margin: 50px 10px 10px 10px;
+    color: #3c3c3c;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    padding: 7px 22px;
+}
+
+.our-services {
+    background-color: #f7f4fa;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.services-top-content {
+    text-align: center;
+    margin: 60px 0px;
+}
+
+.services-top-content h4 {
+    color: #efc614;
+    text-transform: uppercase;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    margin: 15px 0px;
+}
+
+.services-top-content h1 {
+    color: #000000;
+    font-size: 2.7rem;
+    text-transform: capitalize;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+    margin: 10px 0px;
+}
+
+.services-1 {
+    width: 360px;
+    height: 330px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 10px;
+}
+
+.services-1 img {
+    width: 97px;
+    height: 85px;
+    margin-bottom: 20px;
+}
+
+.services-1 h3 {
+    color: #000000;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+    margin: 10px 0px;
+}
+
+.services-1 p {
+    color: #636363;
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-family: "Fira Sans", sans-serif;
+    line-height: 1.4;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+
+.services-1 li>a {
+    color: #000000;
+    font-weight: 400;
+    font-size: 0.9rem;
+    font-family: "Fira Sans", sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-bottom: 1px solid #00000082;
+    border-bottom-width: 1px;
+}
+
+.services-1 li>a:hover {
+    color: #636363;
+}
+
+.all-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+
+/* @media (max-width: 1177px) {
+    .our-services {
+        margin-top: 40rem;
+    }
+} */
+
+
 
 @media (max-width: 750px) {
     .nav-items {
@@ -388,5 +623,9 @@
 
     .fst-banner-content-3 p {
         font-size: 0.7rem;
+    }
+
+    .booking-flex {
+        justify-content: start;
     }
 }
