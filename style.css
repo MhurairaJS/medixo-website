@@ -795,7 +795,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: start;
     width: 780px;
 }
 
@@ -804,62 +804,128 @@
     justify-content: center;
     align-items: start;
     flex-wrap: wrap;
-    margin: 30px;
+    margin: 40px;
 }
 
-
-
-
-@media (max-width: 1320px) {
-    .services-cards-1 {
-        width: 615px;
-        height: 355px;
-    }
-
-    .services-cards-2 {
-        width: 615px;
-        height: 355px;
-    }
-
-    .services-cards-3 {
-        width: 615px;
-        height: 355px;
-    }
+.reviews-top-content h3 {
+    color: #efc614;
+    text-transform: uppercase;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    margin: 15px 0px;
 }
 
+.reviews-top-content h1 {
+    color: #ffffff;
+    font-size: 2.7rem;
+    text-transform: capitalize;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+    margin: 10px 0px;
+}
 
-@media (max-width: 750px) {
-    .nav-items {
-        display: none;
-    }
+.reviews-top-content p {
+    color: #cfcfcf;
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-family: "Fira Sans", sans-serif;
+    line-height: 1.7;
+    width: 30%;
+}
 
-    .navbar-1 {
-        justify-content: space-between;
-    }
+.review-1 {
+    width: 412px;
+    height: 100%;
+    background-color: #f7f4fa;
+    border-radius: 20px;
+    padding: 20px 50px;
+    margin: 10px;
 
-    .fst-banner {
-        text-align: start;
-    }
+}
 
-    .home {
-        justify-content: start;
-        height: 71vw;
-    }
+.review-1-content-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
 
-    .fst-banner-content-2 {
-        justify-content: start;
-    }
+.review-1-content-top img {
+    width: 75px;
+    height: 15px;
+}
 
-    .fst-banner-content-3 p {
-        font-size: 0.7rem;
-    }
+.review-1-content-top p {
+    margin: 0px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: "Fira Sans", sans-serif;
+    text-transform: capitalize;
+}
 
-    .booking-flex {
-        justify-content: start;
-    }
+.review-1-content-mid h5 {
+    color: #000000;
+    text-transform: capitalize;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 462;
+    font-style: italic;
+    font-size: 1.2rem;
+    margin: 11px 0px;
+}
 
-    .health-care-image>i {
-        left: 40%;
-        top: 40%;
-    }
+.review-1-content-mid p {
+    color: #0000008a;
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: "Fira Sans", sans-serif;
+    line-height: 1.7;
+    margin-bottom: 19px;
+    /* padding-right: 2rem; */
+}
+
+.review-1-content-end {
+    display: flex;
+    align-items: start;
+    margin: 27px 10px;
+}
+
+.review-1-content-end img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.review-1-content-end h1 {
+    text-transform: capitalize;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    color: #00000087;
+    font-size: 1rem;
+    margin: 0px 10px 20px 10px;
+}
+
+.review-1-content-end h2 {
+    color: #00000069;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    margin: 3px 10px;
+}
+
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+.testimonial {
+    margin: 100px 0px 0px 0px;
 }

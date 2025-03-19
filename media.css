@@ -1,0 +1,106 @@
+@media (max-width: 1400px) {
+    .reviews {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .fst-banner-content-btn1 {
+        margin: 0px;
+    }
+
+    .fst-banner-content-btn2 {
+        margin: 0px;
+    }
+
+    .services-cards-1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .services-cards-2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .services-cards-3 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .appointments {
+        width: 100%;
+    }
+
+    .reviews-top-content p {
+        width: 100%;
+    }
+
+    .review-1-content-end h1 {
+        margin: 0px 0px 20px 0px;
+    }
+
+    .review-1 {
+        padding: 0px 21px;
+    }
+
+    .reviews-top-content h1 {
+        font-size: 2rem;
+    }
+
+    .process h1 {
+        font-size: 2rem;
+    }
+
+    .healthcare-content-top h1 {
+        font-size: 2rem;
+    }
+
+    .services-top-content h1 {
+        font-size: 2rem;
+    }
+
+    .mindhaven-content-1 h1 {
+        font-size: 2rem;
+    }
+
+    .booking h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .nav-items {
+        display: none;
+    }
+
+    .navbar-1 {
+        justify-content: space-between;
+    }
+
+    .fst-banner {
+        text-align: start;
+    }
+
+    .home {
+        justify-content: start;
+        height: 71vw;
+    }
+
+    .fst-banner-content-2 {
+        justify-content: start;
+    }
+
+    .fst-banner-content-3 p {
+        font-size: 0.7rem;
+    }
+
+    .booking-flex {
+        justify-content: start;
+    }
+
+    .health-care-image>i {
+        left: 40%;
+        top: 40%;
+    }
+}
