@@ -643,6 +643,7 @@
     -webkit-transition: .5s, color .10s;
     -moz-transition: .5s, color .10s;
 }
+
 .health-care-image img:hover {
     opacity: 1;
     box-shadow: 0 8px 8px 0 #6d6d6d, 0 8px 8px 0 #454545;
@@ -650,6 +651,7 @@
     -webkit-transform: translate(0px, 5px);
     -moz-transform: translate(0px, 5px);
 }
+
 .healthcare-content-top h4 {
     color: #efc614;
     text-transform: uppercase;
@@ -696,27 +698,134 @@
     display: none;
 }
 
+.pages {
+    background-color: #3a1e33;
+    width: 100%;
+    height: 100%;
+    padding: 30px 0px;
+}
+
+.process {
+    width: 450px;
+}
+
+.process h4 {
+    color: #edc100;
+    text-transform: uppercase;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    margin: 10px 0px;
+}
+
+.process h1 {
+    color: #ffffff;
+    font-size: 2.7rem;
+    text-transform: capitalize;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+    margin: 10px 0px;
+}
+
+.process p {
+    color: #cfcfcf;
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: "Fira Sans", sans-serif;
+    line-height: 1.7;
+}
+
+.process button {
+    background-color: #efc612;
+    border: 1px solid #efc612;
+    border-radius: 7px;
+    margin: 50px 10px 10px 10px;
+    color: #3c3c3c;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    padding: 7px 22px;
+}
+
+.appointments {
+    width: 350px;
+    margin: 20px;
+}
+
+.appointments h1 {
+    color: #3a1e33;
+    background-color: #ccd6fa;
+    border: 1px solid #ccd6fa;
+    border-radius: 30px;
+    width: 54px;
+    font-size: 1.8rem;
+    padding: 9px 11px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+
+}
+
+
+.appointments h3 {
+    color: #ffffff;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+    margin: 10px 0px;
+}
+
+.appointments p {
+    color: #cfcfcf;
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: "Fira Sans", sans-serif;
+    line-height: 1.7;
+}
+
+.appointment-services {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 780px;
+}
+
+.works {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    margin: 30px;
+}
 
 
 
 
+@media (min-width: 1920px) {
+    .services-cards-1 {
+        width: 615px;
+        height: 355px;
+    }
 
+    .services-cards-2 {
+        width: 615px;
+        height: 355px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .services-cards-3 {
+        width: 615px;
+        height: 355px;
+    }
+}
 
 
 @media (max-width: 750px) {
