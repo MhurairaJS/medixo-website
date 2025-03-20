@@ -60,6 +60,10 @@
 }
 
 .home {
+    background-image: url(/Images/first-banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
     margin: 15px 26px;
     position: relative;
     height: 45vw;
@@ -68,14 +72,14 @@
     align-items: center;
 }
 
-.home>img {
+/* .home>img {
     z-index: -1;
     top: 0px;
     position: absolute;
     width: 100%;
     height: 100%;
     border-radius: 15px;
-}
+} */
 
 .fst-banner {
     text-align: center;
@@ -208,6 +212,7 @@
     align-items: end;
     padding: 10px;
     margin: 5px;
+    box-shadow: inset 0px 0px 111px 150px #8000801a;
 }
 
 .services-cards-1-content h2 {
@@ -238,6 +243,7 @@
     justify-content: space-between;
     padding: 10px;
     margin: 5px;
+    box-shadow: inset 0px 0px 111px 150px #8000801a;
 }
 
 .services-cards-2-content h2 {
@@ -267,6 +273,7 @@
     justify-content: space-between;
     padding: 10px;
     margin: 5px;
+    box-shadow: inset 0px 0px 111px 150px #8000801a;
 }
 
 .services-cards-3-content h2 {
@@ -886,7 +893,6 @@
     font-family: "Fira Sans", sans-serif;
     line-height: 1.7;
     margin-bottom: 19px;
-    /* padding-right: 2rem; */
 }
 
 .review-1-content-end {
@@ -928,4 +934,186 @@
 
 .testimonial {
     margin: 100px 0px 0px 0px;
+}
+
+.artical-top-content {
+    text-align: center;
+}
+
+.artical-top-content h3 {
+    color: #efc614;
+    text-transform: uppercase;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    margin: 15px 0px;
+}
+
+.artical-top-content h1 {
+    color: #000000;
+    font-size: 2.7rem;
+    text-transform: capitalize;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+    margin: 10px 0px 0px 0px;
+}
+
+.artical-top-content h2 {
+    color: #000000;
+    font-size: 2.7rem;
+    text-transform: capitalize;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+    margin: 0px;
+}
+
+.medical-project-1 {
+    width: 350px;
+    height: 381px;
+    background: #ffffff;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.medical-project-1 img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.project-1-midcontent {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 15px 5px 0px 22px;
+}
+
+.project-1-midcontent h5 {
+    color: #000000bd;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0px;
+}
+
+.project-1-midcontent h6 {
+    color: #00000094;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0px;
+}
+
+.project-1-midcontent span {
+    font-size: 2.5rem;
+    color: #efc614;
+    font-weight: bolder;
+    margin: -27px 5px 0px 5px;
+}
+
+.medical-project-1 h2 {
+    color: #000000;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+    margin: 0px 15px;
+}
+
+.medical-project-1 p {
+    color: #0000008a;
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: "Fira Sans", sans-serif;
+    line-height: 1.7;
+    margin: 6px 18px;
+    padding-right: 13px;
+}
+
+.blog-and-news {
+    background-color: #f7f4fa;
+    padding: 20px;
+}
+
+.medical-project {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.faqs-img {
+    width: 480px;
+    height: 580px;
+    border-radius: 15px;
+}
+
+.faqs-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.questions {
+    width: 600px;
+}
+
+.faqs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.questions-top-content h3 {
+    color: #efc614;
+    text-transform: uppercase;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    margin: 15px 0px;
+}
+
+.questions-top-content h1 {
+    color: #000000;
+    font-size: 2.7rem;
+    text-transform: capitalize;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+    margin: 10px 0px 0px 0px;
+}
+
+#question-01 {
+    border: none;
+}
+
+#question-02 {
+    border-bottom: 1px solid rgba(118, 118, 118, 0.405);
+    padding: 0px;
+}
+
+.accordion-button {
+    background-color: white !important;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+.accordion-text {
+    font-size: 1rem;
+    margin: 0px;
 }
