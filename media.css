@@ -67,6 +67,18 @@
     .booking h1 {
         font-size: 2rem;
     }
+
+    .artical-top-content h1 {
+        font-size: 1.7rem;
+    }
+
+    .artical-top-content h2 {
+        font-size: 1.7rem;
+    }
+
+    .questions-top-content h1 {
+        font-size: 1.7rem;
+    }
 }
 
 @media (max-width: 750px) {
@@ -102,5 +114,26 @@
     .health-care-image>i {
         left: 40%;
         top: 40%;
+    }
+
+    .faqs-img {
+        height: 100%;
+    }
+    .book-now-content-mid h1 {
+        font-size: 5.7vw;
+    }
+    .book-now-content-mid p {
+        font-size: 1.9vw;
+    }
+    .book-now-content-btn1{
+        font-size: 0.8rem;
+        padding: 6px 13px;
+    }
+    .book-now-content-btn2{
+        font-size: 0.8rem;
+        padding: 6px 13px;
+    }
+    .book-now-content-btn  {
+        margin: 0px;
     }
 }
