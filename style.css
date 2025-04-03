@@ -61,7 +61,7 @@
 }
 
 .home {
-    background-image: url(/Images/first-banner.webp);
+    background-image: url(/Images/firstbanner-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 15px;
@@ -73,15 +73,6 @@
     align-items: center;
     box-shadow: inset 0px 0px 111px 372px #00000047;
 }
-
-/* .home>img {
-    z-index: -1;
-    top: 0px;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
-} */
 
 .fst-banner {
     text-align: center;
@@ -300,6 +291,7 @@
     font-size: 1.8rem;
     font-weight: 100;
     color: #0000009e;
+    cursor: pointer;
 }
 
 .booking-flex {
