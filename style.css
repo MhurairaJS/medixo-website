@@ -1119,6 +1119,8 @@
     width: 70%;
     text-align: center;
     margin: 0 auto;
+    margin-bottom: -14rem;
+    z-index: -2;
 }
 
 .book-now-content {
@@ -1144,7 +1146,6 @@
     font-size: 0.8rem;
     letter-spacing: 3px;
     margin: 15px 0px;
-    z-index: -1;
 }
 
 .book-now-content-mid h1 {
@@ -1156,7 +1157,6 @@
     font-style: normal;
     line-height: 1.2;
     margin: 10px 0px;
-    z-index: -1;
 }
 
 .book-now-content-mid p {
@@ -1166,7 +1166,6 @@
     font-family: "Fira Sans", sans-serif;
     line-height: 1.7;
     margin: 0px;
-    z-index: -1;
 }
 
 .book-now-content-btn {
@@ -1203,11 +1202,11 @@
 
 .footer {
     background-color: #c7c7c7;
-    margin-top: -14rem;
     padding: 16rem 10px 10px 10px;
     position: relative;
     border-radius: 15px 15px 0px 0px;
-    z-index: -2;
+    z-index: -1;
+
 }
 
 .footer-left-logocontent {
@@ -1231,6 +1230,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 20px 0px;
+    cursor: pointer;
 }
 
 .footer-icon>li {
@@ -1275,6 +1275,7 @@
     color: #000000af;
     text-transform: capitalize;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .working-hours p {
