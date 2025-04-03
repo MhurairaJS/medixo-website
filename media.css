@@ -79,6 +79,16 @@
     .questions-top-content h1 {
         font-size: 1.7rem;
     }
+
+    .copyright p {
+        margin: 0px;
+        font-size: 0.6rem;
+    }
+
+    .newsletter input {
+        width: auto;
+        margin: 5px;
+    }
 }
 
 @media (max-width: 750px) {
@@ -119,21 +129,26 @@
     .faqs-img {
         height: 100%;
     }
+
     .book-now-content-mid h1 {
         font-size: 5.7vw;
     }
+
     .book-now-content-mid p {
         font-size: 1.9vw;
     }
-    .book-now-content-btn1{
+
+    .book-now-content-btn1 {
         font-size: 0.8rem;
         padding: 6px 13px;
     }
-    .book-now-content-btn2{
+
+    .book-now-content-btn2 {
         font-size: 0.8rem;
         padding: 6px 13px;
     }
-    .book-now-content-btn  {
+
+    .book-now-content-btn {
         margin: 0px;
     }
 }
