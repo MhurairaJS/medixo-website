@@ -89,6 +89,9 @@
         width: auto;
         margin: 5px;
     }
+    .reviews-top-content p  {
+        width: 100%;
+    }
 }
 
 @media (max-width: 750px) {
