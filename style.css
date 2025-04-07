@@ -1183,7 +1183,7 @@
     font-style: normal;
     text-transform: capitalize;
     font-size: 0.9rem;
-    padding: 7px 22px;
+    padding: 7px 22px; 
 }
 
 .book-now-content-btn2 {
@@ -1202,11 +1202,11 @@
 
 .footer {
     background-color: #c7c7c7;
-    padding: 16rem 10px 10px 10px;
-    position: relative;
+    padding: 16rem 0px 0px 0px;
     border-radius: 15px 15px 0px 0px;
+    position: absolute;
     z-index: -1;
-
+    width: 100%;
 }
 
 .footer-left-logocontent {
@@ -1350,4 +1350,7 @@
     font-size: 0.9rem;
     color: #3A1E33;
     text-transform: capitalize;
+}
+.copyrightsec {
+    background-color: #ffffff;
 }
